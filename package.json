@@ -1,0 +1,23 @@
+{
+  "name": "recipe_ocr",
+  "version": "1.0.0",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@aws-sdk/client-textract": "^3.654.0",
+    "@aws-sdk/credential-providers": "^3.654.0",
+    "aws-sdk": "^2.1689.0",
+    "canvas": "^2.11.2",
+    "image-size": "^1.1.1",
+    "images": "^3.2.4",
+    "ts-node": "^10.9.2"
+  },
+  "devDependencies": {
+    "@types/aws-sdk": "^0.0.42"
+  }
+}
